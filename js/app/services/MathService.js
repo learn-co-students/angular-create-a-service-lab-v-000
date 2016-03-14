@@ -1,11 +1,11 @@
-function MathSevice () {
+function MathService () {
   this.sum = function (numbersArray) {
     return numbersArray.reduce(function (prev, next) {
       return prev + next;
     })
-  }
+  };
 }
 
 angular
   .module('app')
-  .service('MathSevice', MathSevice);
+  .service('MathService', MathService);
