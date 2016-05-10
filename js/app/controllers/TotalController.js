@@ -9,9 +9,10 @@ function TotalController(MathService) {
         73,
         4,
         889
-    ])
+    ]);
 }
 
 angular
     .module('app')
-    .controller('TotalController', TotalController);
+    .controller('TotalController', TotalController)
+    .service('MathService');
