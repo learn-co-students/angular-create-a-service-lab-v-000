@@ -2,7 +2,7 @@ function MathService() {
   this.sum = function(array) {
     var sum = 0
     array.forEach(function(num){
-      sum = sum + num;
+      sum += num;
     });
     return sum
   };
