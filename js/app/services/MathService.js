@@ -1,1 +1,9 @@
-// Your code here!
+angular
+  .module('app')
+  .service('MathService', MathService);
+
+function MathService() {
+  this.sum = function(array) {
+    return array.reduce(function(a,b) {return a+b;});
+  }
+}
