@@ -9,7 +9,7 @@ function TotalController(MathService) {
         73,
         4,
         889
-    ])
+    ]);
 }
 
 angular
