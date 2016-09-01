@@ -1,4 +1,4 @@
-function TotalController(MathService) {
+app.controller('TotalController', function (MathService) {
     this.sum = MathService.sum([
         2,
         3,
@@ -10,8 +10,5 @@ function TotalController(MathService) {
         4,
         889
     ])
-}
+})
 
-angular
-    .module('app')
-    .controller('TotalController', TotalController);
