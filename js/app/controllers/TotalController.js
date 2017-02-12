@@ -15,3 +15,4 @@ function TotalController(MathService) {
 angular
     .module('app')
     .controller('TotalController', TotalController);
+    
