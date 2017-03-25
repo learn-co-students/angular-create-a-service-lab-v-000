@@ -1,11 +1,7 @@
 // Your code here!
 function MathService() {
-	this.sum = function(arr){
-		var total = 0
-		for (var i = 0; i < arr.length; i++) {
-			total += arr[i]
-		}
-		return total;
+	this.sum = function(arr) {
+		return arr.reduce(function(acc, value) { return acc + value }, 0)
 	}
 }
 
